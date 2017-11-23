@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Asynchronous Programming
 ---
 
 # Asynchronous Programming
@@ -14,19 +14,48 @@ Blocking the calling thread is somewhat wasteful. Threads take up memory (1MB pe
 Consider the following code. While it does not block the UI thread, leaving it responsive, it does tie up a thread pool thread which is hanging around doing nothing until the I/O completed
 
 ```csharp
-        private void GetResultBlocking()        {            Task.Run(() =>                {                    HttpClient client = new HttpClient();                    return client                        .GetStringAsync(_uri)                        .Result;                })                .ContinueWith(task =>                {                    TextBox.Text = task.Result;                }, TaskScheduler.FromCurrentSynchronizationContext());        }
+        private void GetResultBlocking()
+        {
+            Task.Run(() =>
+                {
+                    HttpClient client = new HttpClient();
+                    return client
+                        .GetStringAsync(_uri)
+                        .Result;
+                })
+                .ContinueWith(task =>
+                {
+                    TextBox.Text = task.Result;
+                }, TaskScheduler.FromCurrentSynchronizationContext());
+        }
 ```
 
 We can improve this code using the asynchronous approach as follows.  Now the calling thread will not block and will instead pass a continuation to be invoked when the call returns.
 
 ```csharp
-        private void GetResultAsync()        {            HttpClient client = new HttpClient();            Task<string> stringAsync = client                .GetStringAsync(_uri);            stringAsync.ContinueWith(task =>            {                TextBox.Text = task.Result;            }, TaskScheduler.FromCurrentSynchronizationContext());        }
+        private void GetResultAsync()
+        {
+            HttpClient client = new HttpClient();
+            Task<string> stringAsync = client
+                .GetStringAsync(_uri);
+            stringAsync.ContinueWith(task =>
+            {
+                TextBox.Text = task.Result;
+            }, TaskScheduler.FromCurrentSynchronizationContext());
+        }
 ```
 
 If we use the async await compiler support added in C# 5.0 then our code becomes even nicer
 
 ```csharp
-        private async void GetResultAsyncAwait()        {            HttpClient client = new HttpClient();            Task<string> tsk = client                .GetStringAsync(_uri);            var res = await tsk;            TextBox.Text = res;       }
+        private async void GetResultAsyncAwait()
+        {
+            HttpClient client = new HttpClient();
+            Task<string> tsk = client
+                .GetStringAsync(_uri);
+            var res = await tsk;
+            TextBox.Text = res;
+       }
 ```
 
 
