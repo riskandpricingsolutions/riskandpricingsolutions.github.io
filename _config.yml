@@ -1,2 +1,4 @@
 # theme: minima
 markdown: kramdown
+
+theme: jekyll-theme-slate
