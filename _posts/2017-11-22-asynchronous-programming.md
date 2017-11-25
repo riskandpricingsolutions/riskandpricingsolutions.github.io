@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Asynchronous Programming
+excerpt: We can broadly categorise thread based operations as being either cpu bound or IO bound. Performing prime number calculations would be a classic example of a CPU bound operation whereas pulling down a web page would be a classic example of an IO bound operation.  IO bound operations can be handled in one of two ways. The thread carrying out the IO can block waiting for the results to come back or it can pass in a callback to be executed once the IO completes.  The second approach is the one taken by the new asynchronous API.
 ---
 
 # Asynchronous Programming
