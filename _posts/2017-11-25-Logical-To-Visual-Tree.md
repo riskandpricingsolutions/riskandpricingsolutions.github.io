@@ -1,5 +1,5 @@
 ---
-title: Logical To Visual Tree
+title: Logical To Visual Tree in WPF
 excerpt: In WPF a control's visual appearance is completely separated from its core functionality. The Control base class provides a dependency property called **Template** whose type is **ControlTemplate**. Whenever a Control is instantiated its ControlTemplate is used to generate a tree of visuals that will be used in rendering. The template acts as the blueprint that tells WPF how to create the visual elements needed to render the Control. Typically a WPF interface’s visual tree is an expansion of its logical tree with each node in the logical tree mapping to a sub-tree of elements in the visual tree.  In the following sections I will show how simple logical trees are expanded into visual trees via template instantiation.
 
 ---
