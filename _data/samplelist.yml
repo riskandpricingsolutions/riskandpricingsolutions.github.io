@@ -1,0 +1,14 @@
+docs_list_title: Professional Notes
+docs:
+
+toc2:
+  - title: Mathematics
+    subfolderitems:
+      - page: Number Systems
+        url: /notes/mathematics/numbersystems/numbersystems.docx
+  - title: DotNet Development
+    subfolderitems:
+      - page: Core Language
+        subsubfolderitems:
+          - page: The Type System
+            url: /notes/dotnet/corelib/typesystem/typesystem.docx
