@@ -5,7 +5,7 @@ toc2:
   - title: Mathematics
     subfolderitems:
       - page: Number Systems
-        url: /notes/mathematics/numbersystems/numbersystems.docx
+        url: /notes/mathematics/numbersystems/numbersystem.docx
   - title: DotNet Development
     subfolderitems:
       - page: Core Language
