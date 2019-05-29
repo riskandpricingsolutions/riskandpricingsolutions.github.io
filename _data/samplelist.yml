@@ -12,5 +12,7 @@ toc2:
         subsubfolderitems:
           - page: The Type System
             url: /notes/dotnet/corelib/typesystem/typesystem.docx
-
-
+  - title: Jupyter Notebooks
+    subfolderitems:
+      - page: NewtonRhapson
+        url: https://nbviewer.jupyter.org/github/riskandpricingsolutions/jupyternotebooks/blob/master/The%20Newton%20Rhapson%20Method.ipynb
