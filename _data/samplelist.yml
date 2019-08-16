@@ -2,6 +2,10 @@ docs_list_title: Professional Notes
 docs:
 
 toc2:
+  - title: Computer Science
+    subfolderitems:
+      - page: Algorithms
+        url: /notes/compsci/algorithms/algorithms.docx
   - title: Mathematics
     subfolderitems:
       - page: Number Systems
@@ -14,6 +18,10 @@ toc2:
         subsubfolderitems:
           - page: The Type System
             url: /notes/dotnet/corelib/typesystem/typesystem.docx
+      - page: Core Framework
+        subsubfolderitems:
+          - page: LINQ
+            url: /notes/dotnet/coreframework/linq/linq.docx     
       - page: WPF
         subsubfolderitems:
           - page: Framework Overview
@@ -24,7 +32,26 @@ toc2:
             url: /notes/dotnet/applied/wpf/threadingmodel.docx
           - page: XAML
             url: /notes/dotnet/applied/wpf/xaml/xaml.docx
-
+          - page: Resources
+            url: /notes/dotnet/applied/wpf/resources/resources.docx
+          - page: Rendering
+            url: /notes/dotnet/applied/wpf/rendering/rendering.docx
+          - page: Logical Tree
+            url: /notes/dotnet/applied/wpf/logicaltrees/logicaltrees.docx
+          - page: Dependency Properties
+            url: /notes/dotnet/applied/wpf/dependencyproperties/dependencyproperties.docx
+          - page: Styles
+            url: /notes/dotnet/applied/wpf/styles/styles.docx
+          - page: Controls
+            url: /notes/dotnet/applied/wpf/controls/controls.docx
+          - page: Layout
+            url: /notes/dotnet/applied/wpf/layout/layout.docx
+          - page: Vector Graphics
+            url: /notes/dotnet/applied/wpf/vectorgraphics/vectorgraphics.docx
+      - page: Core Language
+        subsubfolderitems:
+          - page: Rx
+            url: /notes/dotnet/applied/rx/rx.docx
   - title: Jupyter Notebooks
     subfolderitems:
       - page: NewtonRhapson
