@@ -14,6 +14,17 @@ toc2:
         subsubfolderitems:
           - page: The Type System
             url: /notes/dotnet/corelib/typesystem/typesystem.docx
+      - page: WPF
+        subsubfolderitems:
+          - page: Framework Overview
+            url: /notes/dotnet/applied/wpf/frameworkoverview.docx
+          - page: Prerequisites
+            url: /notes/dotnet/applied/wpf/prerequisites.docx
+          - page: Threading Model
+            url: /notes/dotnet/applied/wpf/threadingmodel.docx
+          - page: XAML
+            url: /notes/dotnet/applied/wpf/xaml/xaml.docx
+
   - title: Jupyter Notebooks
     subfolderitems:
       - page: NewtonRhapson
