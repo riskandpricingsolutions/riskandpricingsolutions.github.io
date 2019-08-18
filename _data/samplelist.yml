@@ -18,6 +18,8 @@ toc2:
         url: /notes/mathematics/sets.docx
       - page: Combinatorics
         url: /notes/mathematics/combinatorics/combinatorics.docx
+      - page: Sequences, Series and Sums
+        url: /notes/mathematics/series/series.docx
   - title: DotNet Development
     subfolderitems:
       - page: Core Language
