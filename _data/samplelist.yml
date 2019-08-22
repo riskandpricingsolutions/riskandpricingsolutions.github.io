@@ -14,6 +14,18 @@ toc2:
     subfolderitems:
       - page: Cheat Sheet
         url: /notes/mathematics/cheatsheet.docx
+      - page: Probability
+        subsubfolderitems:
+          - page: Foundations of Probability
+            url: /notes/mathematics/probability/foundations.pdf
+          - page: Properties of Discrete Random Variables
+            url: /notes/mathematics/probability/discreterandomvariables.pdf
+          - page: Identical Independent Random Variables
+            url: /notes/mathematics/probability/iirandomvariables.pdf
+          - page: Stochastic Processes via coin tossing
+            url: /notes/mathematics/probability/cointossing.pdf
+          - page: Stochastic Processes
+            url: /notes/mathematics/probability/stochasticprocesses.pdf
       - page: Number Systems
         url: /notes/mathematics/numbersystems/numbersystem.docx
       - page: Number Theory
