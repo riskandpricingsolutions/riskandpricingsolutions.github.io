@@ -2,6 +2,10 @@ docs_list_title: Professional Notes
 docs:
 
 toc2:
+  - title: Financial Engineering
+    subfolderitems:
+      - page: Basics
+        url: /notes/finance/interestrates/rates.docx
   - title: Computer Science
     subfolderitems:
       - page: Algorithms
