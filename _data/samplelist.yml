@@ -18,11 +18,7 @@ toc2:
         subsubfolderitems:
           - page: Foundations of Probability
             url: /notes/mathematics/probability/foundations.pdf
-          - page: Properties of Discrete Random Variables
-            url: /notes/mathematics/probability/discreterandomvariables.pdf
-          - page: Identical Independent Random Variables
-            url: /notes/mathematics/probability/iirandomvariables.pdf
-          - page: Stochastic Processes via coin tossing
+           - page: Stochastic Processes via coin tossing
             url: /notes/mathematics/probability/cointossing.pdf
           - page: Stochastic Processes
             url: /notes/mathematics/probability/stochasticprocesses.pdf
