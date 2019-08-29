@@ -22,6 +22,8 @@ toc2:
             url: /notes/mathematics/probability/stochasticprocesses.pdf
           - page: Process for stock price evolution
             url: /notes/mathematics/probability/ProcessForStockPriceEvolution.pdf
+          - page: Black Scholes
+            url: /notes/mathematics/probability/BlackScholes.pdf
       - page: Number Systems
         url: /notes/mathematics/numbersystems/numbersystem.pdf
       - page: Number Theory
