@@ -14,6 +14,10 @@ toc2:
     subfolderitems:
       - page: Cheat Sheet
         url: /notes/mathematics/cheatsheet.docx
+      - page: Calculus
+        subsubfolderitems:
+          - page: Differentiation
+            url: /notes/mathematics/calculus/differentiation.pdf
       - page: Probability
         subsubfolderitems:
           - page: Foundations of Probability
