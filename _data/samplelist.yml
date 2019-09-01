@@ -18,6 +18,10 @@ toc2:
         subsubfolderitems:
           - page: Differentiation
             url: /notes/mathematics/calculus/differentiation.pdf
+          - page: Integration
+            url: /notes/mathematics/calculus/integration.pdf
+          - page: Differential Equations
+            url: /notes/mathematics/calculus/differentialequations.pdf
       - page: Probability
         subsubfolderitems:
           - page: Foundations of Probability
