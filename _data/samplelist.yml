@@ -47,7 +47,7 @@ toc2:
       - page: Core Language
         subsubfolderitems:
           - page: The Type System
-            url: /notes/dotnet/corelib/typesystem/typesystem.docx
+            url: /notes/dotnet/corelib/typesystem/typesystem.pdf
       - page: Core Framework
         subsubfolderitems:
           - page: LINQ
