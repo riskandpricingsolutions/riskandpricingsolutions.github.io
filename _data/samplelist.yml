@@ -10,6 +10,8 @@ toc2:
     subfolderitems:
       - page: Algorithms
         url: /notes/compsci/algorithms/algorithms.docx
+      - page: Algorithms
+        url: /notes/compsci/numbers/numbersystems.pdf
   - title: Mathematics
     subfolderitems:
       - page: Cheat Sheet
