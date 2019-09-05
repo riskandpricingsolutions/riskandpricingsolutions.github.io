@@ -5,12 +5,12 @@ toc2:
   - title: Financial Engineering
     subfolderitems:
       - page: Basics
-        url: /notes/finance/interestrates/rates.docx
+        url: /notes/finance/interestrates/rates.pdf
   - title: Computer Science
     subfolderitems:
       - page: Algorithms
         url: /notes/compsci/algorithms/algorithms.docx
-      - page: Algorithms
+      - page: Number Systems
         url: /notes/compsci/numbers/numbersystems.pdf
   - title: Mathematics
     subfolderitems:
@@ -41,7 +41,7 @@ toc2:
       - page: Sets
         url: /notes/mathematics/sets.pdf
       - page: Combinatorics
-        url: /notes/mathematics/combinatorics/combinatorics.docx
+        url: /notes/mathematics/combinatorics/combinatorics.pdf
       - page: Sequences, Series and Sums
         url: /notes/mathematics/series/series.pdf
   - title: DotNet Development
@@ -50,10 +50,12 @@ toc2:
         subsubfolderitems:
           - page: The Type System
             url: /notes/dotnet/corelib/typesystem/typesystem.pdf
+          - page: Threading
+            url: /notes/dotnet/corelib/threading/threading.pdf
       - page: Core Framework
         subsubfolderitems:
           - page: LINQ
-            url: /notes/dotnet/coreframework/linq/linq.docx     
+            url: /notes/dotnet/coreframework/linq/linq.pdf     
       - page: WPF
         subsubfolderitems:
           - page: Framework Overview
@@ -83,7 +85,7 @@ toc2:
       - page: Core Language
         subsubfolderitems:
           - page: Rx
-            url: /notes/dotnet/applied/rx/rx.docx
+            url: /notes/dotnet/applied/rx/reactiveextentions.pdf
   - title: Jupyter Notebooks
     subfolderitems:
       - page: NewtonRhapson
