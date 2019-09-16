@@ -49,7 +49,7 @@ toc2:
       - page: Core Language
         subsubfolderitems:
           - page: Bits and Bytes
-            url: /notes/dotnet/corelib/typesystem/bitsbytesandnums.pdf
+            url: /notes/dotnet/corelib/typesystem/bitbytesandnums.pdf
           - page: The Type System
             url: /notes/dotnet/corelib/typesystem/typesystem.pdf
           - page: Threading
