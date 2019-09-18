@@ -2,6 +2,12 @@ docs_list_title: Professional Notes
 docs:
 
 toc2:
+  - title: Software Development
+    subfolderitems:
+      - page: Architecture
+        url: /notes/software/architecture/rates.pdf
+      - page: Git
+        url: /notes/software/git/git.pdf
   - title: Financial Engineering
     subfolderitems:
       - page: Basics
