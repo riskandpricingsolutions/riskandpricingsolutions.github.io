@@ -5,7 +5,7 @@ toc2:
   - title: Software Development
     subfolderitems:
       - page: Architecture
-        url: /notes/software/architecture/rates.pdf
+        url: /notes/software/architecture/architecture.pdf
       - page: Git
         url: /notes/software/git/git.pdf
   - title: Financial Engineering
