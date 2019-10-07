@@ -56,6 +56,8 @@ toc2:
         subsubfolderitems:
           - page: Bits and Bytes
             url: /notes/dotnet/corelib/typesystem/bitbytesandnums.pdf
+          - page: Bits and Byte Questions
+            url: /notes/dotnet/corelib/typesystem/questions.pdf
           - page: The Type System
             url: /notes/dotnet/corelib/typesystem/typesystem.pdf
           - page: Threading
