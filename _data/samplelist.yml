@@ -15,7 +15,7 @@ toc2:
   - title: Computer Science
     subfolderitems:
       - page: Algorithms
-        url: /notes/compsci/algorithms/algorithms.docx
+        url: /notes/compsci/algorithms/algorithms.pdf
       - page: Number Systems
         url: /notes/compsci/numbers/numbersystems.pdf
   - title: Mathematics
