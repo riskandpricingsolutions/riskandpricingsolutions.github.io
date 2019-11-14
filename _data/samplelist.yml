@@ -69,29 +69,29 @@ toc2:
       - page: WPF
         subsubfolderitems:
           - page: Framework Overview
-            url: /notes/dotnet/applied/wpf/frameworkoverview.docx
+            url: /notes/dotnet/applied/wpf/frameworkoverview.pdf
           - page: Prerequisites
-            url: /notes/dotnet/applied/wpf/prerequisites.docx
+            url: /notes/dotnet/applied/wpf/prerequisites.pdf
           - page: Threading Model
-            url: /notes/dotnet/applied/wpf/threadingmodel.docx
+            url: /notes/dotnet/applied/wpf/threadingmodel.pdf
           - page: XAML
-            url: /notes/dotnet/applied/wpf/xaml/xaml.docx
+            url: /notes/dotnet/applied/wpf/xaml/xaml.pdf
           - page: Resources
-            url: /notes/dotnet/applied/wpf/resources/resources.docx
+            url: /notes/dotnet/applied/wpf/resources/resources.pdf
           - page: Rendering
-            url: /notes/dotnet/applied/wpf/rendering/rendering.docx
+            url: /notes/dotnet/applied/wpf/rendering/rendering.pdf
           - page: Logical Tree
-            url: /notes/dotnet/applied/wpf/logicaltrees/logicaltrees.docx
+            url: /notes/dotnet/applied/wpf/logicaltrees/logicaltrees.pdf
           - page: Dependency Properties
             url: /notes/dotnet/applied/wpf/dependencyproperties/dependencyproperties.docx
           - page: Styles
-            url: /notes/dotnet/applied/wpf/styles/styles.docx
+            url: /notes/dotnet/applied/wpf/styles/styles.pdf
           - page: Controls
-            url: /notes/dotnet/applied/wpf/controls/controls.docx
+            url: /notes/dotnet/applied/wpf/controls/controls.pdf
           - page: Layout
-            url: /notes/dotnet/applied/wpf/layout/layout.docx
+            url: /notes/dotnet/applied/wpf/layout/layout.pdf
           - page: Vector Graphics
-            url: /notes/dotnet/applied/wpf/vectorgraphics/vectorgraphics.docx
+            url: /notes/dotnet/applied/wpf/vectorgraphics/vectorgraphics.pdf
       - page: Core Language
         subsubfolderitems:
           - page: Rx
