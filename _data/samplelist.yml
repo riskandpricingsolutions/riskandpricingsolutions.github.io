@@ -75,7 +75,7 @@ toc2:
           - page: Threading Model
             url: /notes/dotnet/applied/wpf/threadingmodel.pdf
           - page: XAML
-            url: /notes/dotnet/applied/wpf/xaml/xaml.pdf
+            url: /notes/dotnet/applied/wpf/xaml/Xaml.pdf
           - page: Resources
             url: /notes/dotnet/applied/wpf/resources/resources.pdf
           - page: Rendering
