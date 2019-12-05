@@ -62,6 +62,8 @@ toc2:
             url: /notes/dotnet/corelib/typesystem/typesystem.pdf
           - page: Threading
             url: /notes/dotnet/corelib/threading/threading.pdf
+          - page: Memory Management
+            url: /notes/dotnet/corelib/memorymangement/memorymangement.pdf
       - page: Core Framework
         subsubfolderitems:
           - page: LINQ
