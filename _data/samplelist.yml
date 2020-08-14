@@ -2,6 +2,12 @@ docs_list_title: Professional Notes
 docs:
 
 toc2:
+  - title: Web Development
+    subfolderitems:
+      - page: MongoDB
+        url: /notes/web/mongodb/mongodb.pdf
+      - page: Docker
+        url: /notes/web/docker/docker.pdf
   - title: Software Development
     subfolderitems:
       - page: Architecture
