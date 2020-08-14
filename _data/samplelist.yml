@@ -8,6 +8,12 @@ toc2:
         url: /notes/web/mongodb/mongodb.pdf
       - page: Docker
         url: /notes/web/docker/docker.pdf
+      - page: JavaScript
+        url: /notes/web/javascript/javascript.pdf
+      - page: TypeScript
+        url: /notes/web/typecript/typecript.pdf
+      - page: React
+        url: /notes/web/react/react.pdf
   - title: Software Development
     subfolderitems:
       - page: Architecture
