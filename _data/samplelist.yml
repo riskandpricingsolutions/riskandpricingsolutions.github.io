@@ -16,6 +16,8 @@ toc2:
         url: /notes/web/react/react.pdf
       - page: Security
         url: /notes/web/security/security.pdf
+      - page: CSS
+        url: /notes/web/css/css.pdf
   - title: Software Development
     subfolderitems:
       - page: Architecture
