@@ -1,0 +1,5 @@
+
+XamlParser->Option: Option()
+note right of Option: Convert String to double
+XamlParser->DoubleConverter: ConvertFromInvariantString()
+XamlParser->Strike = 0.5
