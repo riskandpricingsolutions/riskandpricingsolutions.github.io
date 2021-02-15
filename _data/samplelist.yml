@@ -18,6 +18,8 @@ toc2:
         url: /notes/web/security/security.pdf
       - page: CSS
         url: /notes/web/css/css.pdf
+      - page: KeyCloak
+        url: /notes/web/keycloak/keycloak.pdf
   - title: Software Development
     subfolderitems:
       - page: Architecture
